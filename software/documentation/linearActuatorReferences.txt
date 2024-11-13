@@ -1,0 +1,5 @@
+- Programming - 
+https://www.circuits-diy.com/linear-actuator-with-feedback-arduino-tutorial/ - schematic + code --> Uses a motor + motor driver module
+
+- Other Information -
+https://www.actuonix.com/assets/images/datasheets/ActuonixL12Datasheet.pdf 
