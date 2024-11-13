@@ -16,7 +16,7 @@ Flip and Pin Bot
 
 ### Components Of This Document
 
-- **Test/Example code**: All code written to test and different aspects of the robots.  This code is for documentation purposes.
+- **Test/Example code**: All code written to test different aspects of the robots.  This code is for documentation purposes.
 - **Documentation & References**: Documentation for the code (further breakdown and explanations) & Documents of references used to build the software for the robots.
 
 ### Getting Started
