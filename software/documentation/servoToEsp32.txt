@@ -1,0 +1,5 @@
+Code Example Reference - contains the code + diagram 
+https://esp32io.com/tutorials/esp32-servo-motor
+
+Libraries:
+uses ServoESP32 library by Jaroslav Paral !! MUST INSTALL VERSION 1.1.3 no earlier !!!
