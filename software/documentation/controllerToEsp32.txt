@@ -4,3 +4,32 @@ Instructions + Introduction: https://racheldebarros.com/esp32-projects/connect-y
 Bluepad Documentation:
 https://github.com/ricardoquesada/bluepad32
 https://bluepad32.readthedocs.io/en/latest/
+
+--
+General Controller Info
+
+We are using a gamepad, so ```myController->isGamepad()```.
+
+---
+Bluepad Functions 
+
+controller->dpad() 
+  Returns the d-pad button pressed.  Is in hex. 
+  Up = 1, down = 2, right = 4, left = 8
+
+controller->buttons() 
+  Returns the bitmask of pressed buttons.  Is in hex.  
+  For the controller buttons: down = 1, right = 2, left = 4, up = 8;
+  For L1 and R1 on the controller, returns L1 = 16d or 10h, returns R1 = 32d or 20h
+
+controller->throttle()
+  Is L2 on the console.  Returns a number between 0 and 1023 depending on how hard it is being pressed.
+
+controller->brake()
+  is R2 on the console.  Returns a number between 0 and 1023 depending on how hard it is being pressed.
+
+controller->axisX()  &&  controller->axisY()
+  is the left joystick on the controller.  Returns the x and y integers.
+
+controller->axiRsX()  &&  controller->axisRY()
+  is the right joystick on the controller.  Returns the x and y integers.
