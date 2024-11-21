@@ -43,4 +43,4 @@ Installing and working with the libraries
     https://raw.githubusercontent.com/ricardoquesada/esp32-arduino-lib-builder/master/bluepad32_files/package_esp32_bluepad32_index.json
 2. Go to library manager and install the bluepad library: "Bluepad32 library for Arduino NINA-W10 boards"
 3. Go to library manager and install the esp32 library: "esp32 by Espressif Systems"
-
+4. When selecting your board, use "esp32 Dev Module" with the specification of esp32_bluepad
